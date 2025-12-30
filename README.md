@@ -1,1 +1,2 @@
-# el-rincon-artistico
+# El Rincón artístico
+Próximamente

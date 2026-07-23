@@ -98,6 +98,14 @@ body{
 
 }
 
+.avatar:first-of-type{
+    margin-right:-40px;
+}
+
+.avatar:last-of-type{
+    margin-left:-40px;
+}
+
 /* Título */
 
 h1{

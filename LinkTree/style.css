@@ -79,16 +79,17 @@ body{
     gap:10px;
 }
 
-.star-left{
-    position:absolute;
-    left:-45px;
-}
+.star{
 
-.star-right{
-    position:absolute;
-    right:-45px;
-}
+    width:clamp(24px, 5vw, 50px);
+    height:auto;
 
+    user-select:none;
+    pointer-events:none;
+
+    flex-shrink:0;
+
+}
 .avatar{
     width:clamp(120px, 55vw, 420px);
     

@@ -82,7 +82,7 @@ body{
 }
 
 .avatar{
-    width:clamp(120px, 30vw, 260px);
+    width:clamp(200px, 45vw, 400px);
 
     user-select:none;
     flex-shrink:0;

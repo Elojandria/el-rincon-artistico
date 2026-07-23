@@ -75,7 +75,7 @@ body{
     align-items:center;
     justify-content:center;
 
-    gap:4px;
+    gap:clamp(2px, 1vw, 10px);
 
     margin-bottom:22px;
 
@@ -83,7 +83,7 @@ body{
 
 .avatar{
 
-    width:clamp(120px, 24vw, 180px);
+    width:min(26vw, 180px);
 
     user-select:none;
     flex-shrink:0;
@@ -92,7 +92,7 @@ body{
 
 .star{
 
-    width:clamp(28px, 6vw, 40px);
+    width:min(10vw, 70px);
 
     flex-shrink:0;
 
@@ -179,19 +179,7 @@ h1{
 
 /* Celulares */
 
-@media(max-width:480px){
-
-    .top{
-
-        gap:2px;
-
-    }
-
-    .avatar{
-
-        width:110px;
-
-    }
+@media (max-width:480px){
 
     h1{
 

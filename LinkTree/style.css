@@ -74,25 +74,29 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:14px;
 
-    margin-bottom:15px;
+    gap:8px; /* Menor separación */
+
+    margin-bottom:18px;
 
 }
 
 .avatar{
 
-    width:52px;
+    width:clamp(72px, 14vw, 100px);
+
     user-select:none;
+    flex-shrink:0;
 
 }
 
 .star{
 
-    width:20px;
+    width:clamp(28px, 6vw, 40px);
+
+    flex-shrink:0;
 
 }
-
 /* Título */
 
 h1{
@@ -179,13 +183,13 @@ h1{
 
     .avatar{
 
-        width:44px;
+        width:70px;
 
     }
 
     .star{
 
-        width:18px;
+        width:28px;
 
     }
 

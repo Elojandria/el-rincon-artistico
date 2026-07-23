@@ -82,8 +82,7 @@ body{
 }
 
 .avatar{
-
-    width:min(26vw, 180px);
+    width:clamp(120px, 30vw, 260px);
 
     user-select:none;
     flex-shrink:0;
@@ -91,8 +90,7 @@ body{
 }
 
 .star{
-
-    width:min(10vw, 70px);
+    width:clamp(40px, 12vw, 90px);
 
     flex-shrink:0;
 

@@ -87,14 +87,13 @@ body{
 
 }
 
-.avatar:first-of-type{
-    margin-right:-50px;
+.avatar-boyo{
+    margin-right:-40px;
 }
 
-.avatar:last-of-type{
-    margin-left:-50px;
+.avatar-gaby{
+    margin-left:-40px;
 }
-
 .star{
 
     width:clamp(24px, 5vw, 50px);

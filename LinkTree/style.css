@@ -79,6 +79,22 @@ body{
     gap:10px;
 }
 
+.avatar{
+    width:clamp(120px, 55vw, 420px);
+    
+    user-select:none;
+    flex-shrink:0;
+
+}
+
+.avatar:first-of-type{
+    margin-right:-50px;
+}
+
+.avatar:last-of-type{
+    margin-left:-50px;
+}
+
 .star{
 
     width:clamp(24px, 5vw, 50px);
@@ -90,22 +106,6 @@ body{
     flex-shrink:0;
 
 }
-.avatar{
-    width:clamp(120px, 55vw, 420px);
-    
-    user-select:none;
-    flex-shrink:0;
-
-}
-
-.avatar:first-of-type{
-    margin-right:-40px;
-}
-
-.avatar:last-of-type{
-    margin-left:-40px;
-}
-
 /* Título */
 
 h1{

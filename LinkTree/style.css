@@ -70,15 +70,23 @@ body{
 /* Parte superior */
 
 .top{
+    position:relative;
 
     display:flex;
-    align-items:center;
     justify-content:center;
+    align-items:center;
 
-    gap:clamp(2px, 1vw, 10px);
+    gap:10px;
+}
 
-    margin-bottom:22px;
+.star-left{
+    position:absolute;
+    left:-45px;
+}
 
+.star-right{
+    position:absolute;
+    right:-45px;
 }
 
 .avatar{
@@ -89,12 +97,6 @@ body{
 
 }
 
-.star{
-    width:clamp(40px, 12vw, 90px);
-
-    flex-shrink:0;
-
-}
 /* Título */
 
 h1{
